@@ -1,0 +1,50 @@
+/* tables */
+table.tablesorter {
+    /*font-family:arial;
+	/*background-color: #CDCDCD;*/
+    /*margin:10px 0pt 15px;*/
+    /*font-size: 8pt;*/
+    width: 100%;
+    text-align: right;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    /*background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;*/
+}
+table.tablesorter thead tr .header {
+    background-image: url(../images/admin/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center left;
+    cursor: pointer;
+}
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+    background-color:#f1f5fa;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../images/admin/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../images/admin/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #dddddd;
+}
+.gg{
+    background-color: #dddddd;
+}
+table.tablesorter tbody tr.odd.checked td {
+  background: #8080c0;
+  color: #fff;
+}
+table.tablesorter tbody tr.even.checked td {
+  background: #a0a0e0;
+  color: #fff;
+}

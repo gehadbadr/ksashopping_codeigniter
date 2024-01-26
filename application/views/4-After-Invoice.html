@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>After Invoice - KSA SHopping</title>
+<?php include 'includes/head.php';?>
+</head>
+
+<body>
+<div class="wrapper">
+	
+    <?php include 'includes/navigator.php';?>
+
+
+	<div class="clear"></div>
+
+
+<div class="right_col">
+	<div class="box invoice_col">
+
+        <h2>معلومات المشتري</h2>
+        <div class="inside">
+			
+            <table class="form_table">
+            	<tr>
+            		<td width="125">الاسم:</td>
+                    <td><input type="text" /></td>
+            	</tr>
+                <tr>
+            		<td>البريد الإلكتروني:</td>
+                    <td><input type="text" /></td>
+            	</tr>
+                <tr>
+            		<td>الجوال:</td>
+                    <td><input type="text" /></td>
+            	</tr>
+                <tr>
+            		<td>المدينة:</td>
+                    <td><input type="text" /></td>
+            	</tr>
+                <tr>
+            		<td>الحي / المنطقة:</td>
+                    <td><input type="text" /></td>
+            	</tr>
+                <tr>
+            		<td>ملاحظات:</td>
+                    <td><textarea cols="20" rows="6"></textarea></td>
+            	</tr>
+               
+            </table>
+
+        </div><!-- .inside -->
+    
+	</div><!-- .box -->
+</div><!-- .right_col -->
+
+<div class="left_col">
+	<div class="box invoice_col">
+
+        <h2>طرق الدفع</h2>
+        
+        <div class="inside">
+        	<p>عن طريقة حوالة بنكية</p><br />
+        	<p>الدفع عند الاستلام</p>
+            <input type="submit" class="invoice_submit" value="ارسال الطلب" />
+        </div><!-- .inside -->
+    
+	</div><!-- .box -->
+</div><!-- .left_col -->
+
+
+	<div class="clear"></div>
+    
+<?php include 'includes/footer.php';?>
+
+
+</div><!-- .wrapper -->
+</body>
+</html>
